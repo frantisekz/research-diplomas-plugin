@@ -69,12 +69,12 @@ function topics_create_cpt_and_taxos() {
 function theses_create_cpt_and_taxos() {
 
 	// Taxonomies
-  	register_taxonomy('parrent_university_student', 'theses', array('label' => __('Parrent University of Student')));
+  	register_taxonomy('parrent_university_student', 'theses', array('label' => __('Parent University of Student')));
 	register_taxonomy('student_grade', 'theses', array('label' => __('Grade (A,B,...)')));
 	register_taxonomy('these_type_student', 'theses', array('label' => __('Thesis type (Bachelor/Diploma)')));
 	register_taxonomy('technical_supervisor', 'theses', array('label' => __('Technical Leader')));
 	register_taxonomy('university_supervisor', 'theses', array('label' => __('Academic Leader')));
-	register_taxonomy('defence_date', 'theses', array('label' => __('Thesis Defence Date')));	
+	register_taxonomy('defence_date', 'theses', array('label' => __('Thesis Defence Date')));
 	// Connection with Topic is handled by plugin - CPT-ONOMIES
 
 	$labels = array(
